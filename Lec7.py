@@ -10,4 +10,7 @@ while i >=0:
         pass
   
     print(i)
-    
+try:
+    print (1/0)
+except:
+    print('error')
